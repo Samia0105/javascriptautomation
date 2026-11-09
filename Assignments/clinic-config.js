@@ -1,0 +1,21 @@
+"use strict";
+const headline = "   CLINIC SYSTEM CONFIGURATION";
+const clinicName = "Sunrise Health Clinic";
+const apiUrl = "https://api.sunrisehealth.example.com";
+let environment;
+let nurseOnDuty = "Amara Okafor";
+let todaysDate;
+let isReminderEnabled = true;
+
+console.log("====================================");
+console.log(headline);
+console.log("====================================");
+console.log("Clinic Name:", clinicName);
+console.log("API URL:", apiUrl);
+console.log("Environment:", "Staging");
+console.log("Nurse on Duty:", nurseOnDuty);
+console.log("Today's Date:", "2026-11-03");
+console.log("Reminders Enabled:", isReminderEnabled);
+console.log("====================================");
+nurseOnDuty = "Daniel Reyes";
+console.log("shift change. Nurse on Duty:", nurseOnDuty);

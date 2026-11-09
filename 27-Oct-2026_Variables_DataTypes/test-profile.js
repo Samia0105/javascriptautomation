@@ -1,0 +1,23 @@
+const profileInfo = "My Profile";
+let firstName = "Sayali";
+let lastName = "Dani";
+let email = "sayali.dani@abc.com";
+let age = "30";
+let role = "Tester";
+let exp = "13";
+let skills = "Automation Playwright";
+let company = "ABC Corp LTD";
+let address = "Pune";
+
+console.log("************************");
+console.log(profileInfo);
+console.log("************************");
+console.log("Name:", firstName, lastName);
+console.log("Age", age);
+console.log("Email:", email);
+console.log("Role:", role);
+console.log("Exp:", exp);
+console.log("Skills:", skills);
+console.log("Company:", company);
+console.log("Address:", address);
+console.log("************************");
